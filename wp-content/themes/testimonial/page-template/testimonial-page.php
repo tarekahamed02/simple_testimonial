@@ -31,12 +31,19 @@ Template Name: Testimonial Page
                                     <div>
                                         <div class="testimonial_content">
                                             <i class="fa fa-quote-right"></i>
-                                            <p><?php echo $attachments->field('caption'); ?></p>
+                                            <p><?php echo $attachments->field('testimonial'); ?></p>
                                         </div>
                                         <?php echo $attachments->image('thumbnail'); ?>
                                         <div class="author_meta">
-                                            <h2><?php echo $attachments->field('author-name'); ?></h2>
-                                            <p><?php echo $attachments->field('author-company'); ?></p>
+                                            <h2><?php echo $attachments->field('name'); ?></h2>
+                                            <p>
+                                                <?php
+                                                echo $attachments->field('position');
+                                                echo ", ";
+                                                echo $attachments->field('company');
+                                                ?>
+                                            </p>
+
                                         </div>
 
                                     </div>

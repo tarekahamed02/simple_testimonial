@@ -8,21 +8,28 @@ add_filter('attachments_default_instance', '__return_false'); // disable the def
 function testimonial_attachments($attachments)
 {
     $fields         = array(
+
         array(
-            'name'      => 'caption',                         // unique field name
+            'name'      => 'name',                         // unique field name
+            'type'      => 'text',                          // registered field type
+            'label'     => __('Name', 'testimonial'),    // label to display
+        ),
+
+        array(
+            'name'      => 'position',                         // unique field name
+            'type'      => 'text',                          // registered field type
+            'label'     => __('Position', 'testimonial'),    // label to display
+        ),
+        array(
+            'name'      => 'company',                         // unique field name
+            'type'      => 'text',                          // registered field type
+            'label'     => __('Company', 'testimonial'),    // label to display
+        ),
+        array(
+            'name'      => 'testimonial',                         // unique field name
             'type'      => 'textarea',                          // registered field type
-            'label'     => __('caption', 'testimonial'),    // label to display
-        ),
-        array(
-            'name'      => 'author name',                         // unique field name
-            'type'      => 'text',                          // registered field type
-            'label'     => __('author name', 'testimonial'),    // label to display
-        ),
-        array(
-            'name'      => 'author company',                         // unique field name
-            'type'      => 'text',                          // registered field type
-            'label'     => __('author company', 'testimonial'),    // label to display
-        ),
+            'label'     => __('Testimonial', 'testimonial'),    // label to display
+        )
     );
 
     $args = array(

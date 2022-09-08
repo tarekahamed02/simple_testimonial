@@ -27,7 +27,6 @@ Template Name: Testimonial Page
 
                             <?php while ($attachment = $attachments->get()) : ?>
                                 <div class="single_testimonial_item">
-
                                     <div>
                                         <div class="testimonial_content">
                                             <i class="fa fa-quote-right"></i>
@@ -43,9 +42,7 @@ Template Name: Testimonial Page
                                                 echo $attachments->field('company');
                                                 ?>
                                             </p>
-
                                         </div>
-
                                     </div>
                                 </div>
                             <?php endwhile; ?>

@@ -1,0 +1,77 @@
+/*
+Theme Name: Testimonial
+Theme URI: https://www.testimonial.com
+Author: testimonial team
+Author URI: https://www.authoruri.xyz
+Description: This is a testimonial website in BD
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: testimonial
+*/
+
+
+
+
+.testimonial_section {
+    padding: 80px 0;
+}
+
+.testimonial_title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.testimonial_title h2 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+
+.testimonial_title p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimonial_content {
+    background-color: #34C1F4;
+    color: #fff;
+    width: 330px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.testimonial_content i.fa {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.testimonial_content p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.single_testimonial_item img {
+    border-radius: 50%;
+    border: 5px solid #34C1F4;
+    margin-right: 30px;
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+}
+
+.author_meta h2 {
+
+    font-size: 22px;
+}
+
+.author_meta {
+    display: inline-block;
+    margin-top: 20px;
+
+}
